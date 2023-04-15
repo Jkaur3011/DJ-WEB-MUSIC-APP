@@ -1,0 +1,59 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 0px;
+    box-shadow: 20px 20px 40px lightblue;
+}
+
+.note {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_volume {
+    float: right;
+}
+
+.diskgif {
+    width: 200px;
+    border-radius: 100px;
+}
+
+h2 {
+    font-size: 16px !important;
+}
+
+#play {
+    font-size: 20px !important;
+    width: 100px;
+
+}
+
+canvas {
+    border-width: 2px;
+    border-color: white;
+    border-style: ridge;
+    animation-name: canva;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes canva {
+    from {
+        box-shadow: 20px 20px 30px rgb(158,14,154);
+    }
+
+    to {
+        box-shadow: 20px 20px 30px rgb(0,255,68);
+    }
+}
